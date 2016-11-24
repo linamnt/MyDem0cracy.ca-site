@@ -1,0 +1,58 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.warning-holder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+  border: solid 1px #e6ebf0;
+  margin: 100px auto;
+  opacity: 0;
+  padding: 62px;
+}
+
+.warning-holder.visible {
+  opacity: 100;
+}
+
+.warning-logo {
+  display: inline-block;
+  width: 48px;
+  height: 33px;
+  margin-right: 20px;
+}
+
+.warning-app-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.7;
+  color: #ff0000;
+  margin-right: 12px;
+
+}
+
+.warning-text {
+  color: #0e2e47;
+  flex: 0 1 100%;
+  text-align: center;
+  margin-top: 8px;
+  /*margin-left: 60px;*/
+}
+
+@media only screen and (min-width: 768px) {
+
+  .warning-holder {
+    width: 590px;
+    padding: 62px;
+  }
+
+  .warning-text {
+    flex: none;
+    margin-top: 0;
+  }
+
+}
