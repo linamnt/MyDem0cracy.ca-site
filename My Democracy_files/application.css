@@ -8,11 +8,9 @@ body {
   align-items: center;
   justify-content: center;
 
-  border-radius: 3px;
-  border: solid 1px #e6ebf0;
-  margin: 100px auto;
+  margin: 50px auto;
   opacity: 0;
-  padding: 62px;
+  padding: 40px;
 }
 
 .warning-holder.visible {
@@ -21,9 +19,10 @@ body {
 
 .warning-logo {
   display: inline-block;
-  width: 48px;
-  height: 33px;
+  width: 241px;
+  height: 53px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .warning-app-name {
@@ -40,19 +39,79 @@ body {
   flex: 0 1 100%;
   text-align: center;
   margin-top: 8px;
-  /*margin-left: 60px;*/
+  margin-bottom: 25px;
+  width: 100%;
+
+}
+
+.form-holder {
+  width: 100%;
+}
+
+.form-text {
+  height: 50px;
+  border-color: #7eb4e0;
+  width: 100%;
+  border-style: solid;
+  border-radius: 4px;
+  color: #7eb4e0;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #7eb4e0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #7eb4e0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #7eb4e0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #7eb4e0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-submit {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 18px 0px;
+  background-color: #0b70c2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 768px) {
 
   .warning-holder {
-    width: 590px;
+    width: 460px;
     padding: 62px;
   }
 
   .warning-text {
     flex: none;
-    margin-top: 0;
+    margin-top: 65px;
+    margin-bottom: 22px;
   }
 
 }
