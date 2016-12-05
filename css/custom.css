@@ -163,3 +163,60 @@ img#parliament {
   width: 83.3333%;
   margin-left: 8.3333%
 }
+
+.footer-container {
+  padding: 0 15px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-holder {
+  border: 0;
+  margin-top: 44px;
+  padding: 0;
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.footer-civictechto-holder {
+  border-top: 1px solid #e7ecf0;
+  padding: 20px 20px 20px 0;
+  margin: 0;
+}
+
+.footer-civictechto-text {
+  margin-bottom; 0;
+  padding-top: 8px;
+  border: none;
+  text-align: right;
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 0.9;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #63788a;
+  width: 33.3333%;
+  float: left;
+  margin-left: 16.6666%;
+  margin-right: 42px;
+}
+
+.footer-civictechto-logo {
+  margin: 0;
+  position: relative;
+  -webkit-align-items: center;
+  justify-content: center;
+  width: 33.3333%;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-civictechto-logo img {
+  height: 35px;
+}
