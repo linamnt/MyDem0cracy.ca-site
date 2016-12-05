@@ -1,10 +1,100 @@
-body {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#landing-page {
   font-family: Open Sans;
   color: #231f1b;
 }
 
 a {
   color: #0c70c2;
+}
+
+.ErreHeader-container {
+  padding: 0 15px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ErreHeader-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.ErreHeader-holder {
+  padding: 0;
+  border: 1px solid #095492;
+  border-radius: 3px;
+}
+
+.ErreHeader-item-inner {
+  padding: 0 10px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  height: 80px
+}
+
+.ErreHeader-item-icon {
+  position: relative;
+  top: -5px;
+  width: 50px;
+}
+
+img#parliament {
+  width: 36px;
+  height: 94px;
+  /* Needed to tweak from MyDemocracy.ca values */
+  margin: -10px 0 -5px 0;
+  overflow: hidden;
+}
+
+.ErreHeader-item-caption {
+  text-align: center;
+  font-family: Charter;
+  width: calc(100% - 80px);
+  font-size: 20px;
+  line-height: 1.05
+  letter-spacing: -0.2px;
+  font-weight: 700;
+  color: #0e2e47;
+  margin: 0;
+}
+
+.header-container {
+  padding: 0 15px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-row {
+  font-family: Charter;
+  color: #0e2e47;
+  text-align: center;
+  line-height: 22px;
+  font-size: 16px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.sub-title {
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  font-weight: 700;
+  margin-left: 8.333%;
+  width: 83.3333%;
+}
+
+.welcome-message-content {
+  margin-bottom: 32px;
+  padding 0;
+  margin-left: 8.333%;
+  width: 83.3333%;
+  position: relative;
 }
 
 .question-main-container {
