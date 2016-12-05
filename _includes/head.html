@@ -12,6 +12,12 @@
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicon.ico?">
   <script src="{{"/assets/evil-icons.min.js" | prepend:site.baseurl }}"></script>
 
+  <script>
+  var host = 'mydem0cracy.ca';
+  if ((host == window.location.host) && (window.location.protocol != 'https:'))
+    window.location.protocol = 'https';
+  </script>
+
   <!-- todo: include this into main.css -->
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
