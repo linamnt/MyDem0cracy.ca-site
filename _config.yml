@@ -29,3 +29,6 @@ disqus_shortname:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+polis:
+  conversation_id: 69fnuffbkm
