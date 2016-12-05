@@ -185,6 +185,8 @@ img#parliament {
   border-top: 1px solid #e7ecf0;
   padding: 20px 20px 20px 0;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer-civictechto-text {
@@ -219,4 +221,53 @@ img#parliament {
 
 .footer-civictechto-logo img {
   height: 35px;
+}
+
+.navigation-holder-inner {
+  padding: 0;
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.navigation-link-holder {
+  text-align: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.navigation-item-link {
+  display: inline-block;
+  width: inherit;
+}
+
+.navigation-item-link::after {
+  content: '';
+  display: inline-block;
+  margin: 0 14px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #cee1f0;
+  position: relative;
+  top: -2px;
+}
+
+.navigation-item {
+  display: inline-block;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 22px 0;
 }
