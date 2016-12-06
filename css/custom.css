@@ -2,13 +2,79 @@
   box-sizing: border-box;
 }
 
-#landing-page {
+body {
   font-family: Open Sans;
   color: #231f1b;
+  font-size: 14px;
+  line-height: 1.42857;
 }
 
 a {
   color: #0c70c2;
+  text-decoration: none;
+}
+
+a > div:hover, a > div:focus, a:hover, a:focus {
+  color: #08467a;
+  text-decoration: underline;
+}
+
+a:active, a:hover, a > div:active, a > div:hover {
+  outline: 0;
+}
+
+header, main {
+  display: block;
+}
+
+.navbar-title {
+  padding: 0 15px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
+
+.navbar-title-holder {
+  width: 83.3333%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 38px 0 27px;
+  margin-left: 0;
+}
+
+.navbar-title-holder img {
+  margin: auto;
+  height: 55px;
+  overflow: hidden;
+}
+
+.navbar-title-language-switcher {
+  justify-content: flex-end;
+  padding: 0;
+  display: flex;
+  width: 16.66666%;
+  float: left;
+  position: relative;
+}
+
+.LanguageSwitcher-holder {
+  width: 96px;
+  height: 42px;
+  font-size: 16px;
+  letter-spacing: normal;
+  margin-top: 43px;
+  cursor: pointer;
+  border: 1px solid #cee1f0;
+  border-radius: 3px;
+  background-color: #fafdff;
+  color: #0c70c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ErreHeader-container {
@@ -140,6 +206,8 @@ img#parliament {
 
 .next-button:hover {
   background-color: #095492;
+  color: #fff;
+  text-decoration: none;
 }
 
 .next-button span {
