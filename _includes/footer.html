@@ -1,20 +1,35 @@
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer left column one-half">
-      <section class="small-font">
-        Created with ❤ at <a href="http://civictech.ca">#CivicTech Toronto</a> hacknights.
-      </section>
+<footer class="footer-container">
+  <div class="footer-holder">
+    <div class="footer-civictechto-holder">
+      <div class="footer-civictechto-text">
+        Made with ❤ at
+      </div>
+      <div class="footer-civictechto-logo">
+        <a href="https://www.meetup.com/Civic-Tech-Toronto/" target="_blank">
+          <img src="/assets/img/civictechto-logo.png" />
+        </a>
+      </div>
     </div>
-
-    <div class="footer right column one-half">
-      <section class="small-font">
-        {% if site.github_username %}
-        {% include icon-github.html username=site.github_username %}
-        {% endif %}
-        {% if site.twitter_username %}
-        {% include icon-twitter.html username=site.twitter_username %}
-        {% endif %}
-      </section>
+  </div>
+  <div class="navigation-holder">
+    <div class="navigation-holder-inner">
+      <ul class="navigation-link-holder">
+        <li class="navigation-item-link">
+          <a href="#"><div class="navigation-item">About</div></a>
+        </li>
+        <li class="navigation-item-link">
+          <a href="#"><div class="navigation-item">Methodology</div></a>
+        </li>
+        <li class="navigation-item-link">
+          <a href="#"><div class="navigation-item">FAQ</div></a>
+        </li>
+        <li class="navigation-item-link">
+          <a href="#"><div class="navigation-item">Privacy</div></a>
+        </li>
+        <li class="navigation-item-link">
+          <a href="#"><div class="navigation-item">Why this tool?</div></a>
+        </li>
+      </div>
     </div>
   </div>
 </footer>
