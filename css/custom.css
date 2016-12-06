@@ -27,6 +27,19 @@ header, main {
   display: block;
 }
 
+.ErreHeader-row::after, .ErreHeader-row::before,
+.footer-inspiration-holder::after,
+.footer-inspiration-holder::before, .header-row::after,
+.header-row::before, .MaxDiff-choices-holder::after,
+.MaxDiff-choices-holder::before, .MaxDiff-choices-row::after,
+.MaxDiff-choices-row::before, .row::after, .row::before, .Slider-root::after,
+.Slider-root::before, .UserSort-choices-holder-inner::after,
+.UserSort-choices-holder-inner::before, .UserSortChoice-holder-inner::after,
+.UserSortChoice-holder-inner::before {
+  content: " ";
+  display: table;
+}
+
 .navbar-title {
   padding: 0 15px;
   max-width: 780px;
@@ -249,19 +262,20 @@ img#parliament {
   min-height: 1px;
 }
 
-.footer-civictechto-holder {
+.footer-inspiration-holder {
   border-top: 1px solid #e7ecf0;
   padding: 20px 20px 20px 0;
   margin: 0;
+  border-bottom: 1px solid #e7ecf0;
   display: flex;
-  align-items: center;
 }
 
-.footer-civictechto-text {
-  margin-bottom; 0;
+.footer-inspiration-text {
+  margin-bottom: 0;
   padding-top: 8px;
   border: none;
   text-align: right;
+
   padding: 12px 0;
   font-size: 15px;
   font-weight: 600;
@@ -269,10 +283,46 @@ img#parliament {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #63788a;
-  width: 33.3333%;
+  border-radius: 0 0 4px 4px;
+  width: 33.33333%;
   float: left;
-  margin-left: 16.6666%;
-  margin-right: 42px;
+  margin-left: 10%;
+  margin-right: 60px;
+}
+
+.footer-inspiration-logo {
+  margin: 0;
+  position: relative;
+  display: flex;
+  -webkit-align-items: center;
+  justify-content: center;
+  width: 33.33333%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-inspiration-logo img {
+  height: 35px;
+}
+
+.footer-civictechto-holder {
+  padding: 25px 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer-civictechto-text {
+  margin-right: 85px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 0.9;
+  letter-spacing: 1.5px;
+  text-align: right;
+  color: #63788a;
+  text-transform: uppercase;
+  width: 33.333333%;
 }
 
 .footer-civictechto-logo {
