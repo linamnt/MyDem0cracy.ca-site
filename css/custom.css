@@ -187,6 +187,10 @@ img#parliament {
   margin-right: auto;
 }
 
+.question-button-holder {
+  width: 100%;
+}
+
 .question-holder-inner {
   border: 1px solid #e6d3d3;
   border-radius: 3px;
@@ -194,8 +198,13 @@ img#parliament {
   padding-bottom: 5px;
 }
 
-.question-button-holder {
-  width: 100%;
+.question-controls {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-left: 8.33333%;
+  width: 83.33333%;
+  float: left;
 }
 
 .next-button {
