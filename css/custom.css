@@ -107,6 +107,8 @@ header, main {
   border: 1px solid #0c70c2;
   border-radius: 3px;
   margin-left: 8.333333%;
+  width: 83.33333%;
+  position: relative;
 }
 
 .ErreHeader-item-inner {
