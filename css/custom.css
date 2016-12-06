@@ -10,12 +10,12 @@ body {
 }
 
 a {
-  color: #0c70c2;
+  color: #c20c0c;
   text-decoration: none;
 }
 
 a > div:hover, a > div:focus, a:hover, a:focus {
-  color: #08467a;
+  color: #7a0808;
   text-decoration: underline;
 }
 
@@ -81,10 +81,10 @@ header, main {
   letter-spacing: normal;
   margin-top: 43px;
   cursor: pointer;
-  border: 1px solid #cee1f0;
+  border: 1px solid #f0cece;
   border-radius: 3px;
-  background-color: #fafdff;
-  color: #0c70c2;
+  background-color: #fffafa;
+  color: #c20c0c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ header, main {
 
 .ErreHeader-holder {
   padding: 0;
-  border: 1px solid #095492;
+  border: 1px solid #0c70c2;
   border-radius: 3px;
 }
 
@@ -138,7 +138,7 @@ img#parliament {
   line-height: 1.05
   letter-spacing: -0.2px;
   font-weight: 700;
-  color: #0e2e47;
+  color: #470e0e;
   margin: 0;
 }
 
@@ -151,7 +151,7 @@ img#parliament {
 
 .header-row {
   font-family: Charter;
-  color: #0e2e47;
+  color: #470e0e;
   text-align: center;
   line-height: 22px;
   font-size: 16px;
@@ -185,7 +185,7 @@ img#parliament {
 }
 
 .question-holder-inner {
-  border: 1px solid #d3dee6;
+  border: 1px solid #e6d3d3;
   border-radius: 3px;
   padding-top: 42px;
   padding-bottom: 5px;
@@ -197,8 +197,8 @@ img#parliament {
 
 .next-button {
   color: #fff;
-  background-color: #0c70c2;
-  border-color: #031d32;
+  background-color: #c20c0c;
+  border-color: #c20c0c;
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
@@ -218,7 +218,8 @@ img#parliament {
 }
 
 .next-button:hover {
-  background-color: #095492;
+  background-color: #920909;
+  border-color: #700707;
   color: #fff;
   text-decoration: none;
 }
@@ -229,7 +230,7 @@ img#parliament {
 }
 
 .arrow-bullet {
-  color: #7eb4e1;
+  color: #e17e7e;
   padding-bottom: 5px;
 }
 
@@ -239,7 +240,7 @@ img#parliament {
   font-size: 14px;
   line-height: 1.43;
   text-align: center;
-  color: #63788a;
+  color: #8a6363;
   padding: 0;
   width: 83.3333%;
   margin-left: 8.3333%
@@ -263,10 +264,10 @@ img#parliament {
 }
 
 .footer-inspiration-holder {
-  border-top: 1px solid #e7ecf0;
+  border-top: 1px solid #f0e7e7;
   padding: 20px 20px 20px 0;
   margin: 0;
-  border-bottom: 1px solid #e7ecf0;
+  border-bottom: 1px solid #f0e7e7;
   display: flex;
 }
 
@@ -282,7 +283,7 @@ img#parliament {
   line-height: 0.9;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #63788a;
+  color: #8a6363;
   border-radius: 0 0 4px 4px;
   width: 33.33333%;
   float: left;
@@ -320,7 +321,7 @@ img#parliament {
   line-height: 0.9;
   letter-spacing: 1.5px;
   text-align: right;
-  color: #63788a;
+  color: #8a6363;
   text-transform: uppercase;
   width: 33.333333%;
 }
@@ -372,7 +373,7 @@ ol, ul {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #cee1f0;
+  background-color: #f0cece;
   position: relative;
   top: -2px;
 }
