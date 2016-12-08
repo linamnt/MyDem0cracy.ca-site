@@ -1,16 +1,31 @@
-# jekyll-simple
+# MyDemocracy.ca / MaDem0cratie.ca
 
-## simple
-simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
+This citizen-led project aspires to create a participatory consultation
+experience around Canadian electoral reform. I was inspired by the
+[official Government of Canada citizen survey
+tool](http://mydemocracy.ca/).
 
-Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
+**Note:** This is an independent effort by citizens. It is in no way
+endorsed or supported by the Government of Canada.
 
-Supposedly, this could work with Japanese as well but never had a chance to try.
 
-## Story behind this theme
+### Organization of Repo
 
-It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
+We are serving the site from GitHub Pages, a free hosting service of
+GitHub.
 
-iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
+There are two sites, to serve both official languages. Having said that,
+we strive for a single codebase. GitHub Pages has the limitation where
+it only allows hosting one website per project repository. Since we need
+two sites, we simple host the same code in two repos. Each language
+lives on its own Git branch. We are working to keep these branches as
+similar as possible.
 
-So mobile goes first, then the macOS.
+| Website             | Git repository                                      | Git branch |
+|:-------------------:|:---------------------------------------------------:|:----------:|
+| [MyDem0cracy.ca][]  | http://github.com/CivicTechTO/MyDem0cracy.ca-site/  | `master`   |
+| [MaDem0cratie.ca][] | http://github.com/CivicTechTO/MaDem0cratie.ca-site/ | `gh-pages` |
+
+<!-- Links -->
+   [MyDem0cracy.ca]:  https://mydem0cracy.ca/
+   [MaDem0cratie.ca]: https://madem0cratie.ca/
