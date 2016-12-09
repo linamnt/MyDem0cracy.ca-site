@@ -5,13 +5,11 @@ permalink: '/faq/'
 ---
 {% for faq in site.faqs %}
   <hr />
-  <div>
-    <b>Question:</b><br />
-    {{ faq.question }}
+  <div class="question">
+    <h3>{{ faq.question }}</h3>
   </div>
 
-  <div>
-    <b>Answer:</b><br />
+  <div class="answer">
     {{ faq.content }}
   </div>
 {% endfor %}
