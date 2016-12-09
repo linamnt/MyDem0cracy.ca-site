@@ -33,31 +33,45 @@ polis:
   conversation_id: 69fnuffbkm
 
 mydem0cracy:
-  text:
-    sub_title: >-
-      MyDem0cracy.ca is an innovative way to join the national conversation on
-      electoral reform. By answering a few questions, you can draw a picture of
-      your democratic values. You can share your results with friends. It only
-      takes a few minutes to answer and your feedback will help shape a
-      healthier democracy.
-    welcome_message: >-
-      As you answer the questions, remember that there are no wrong answers and
-      your individual responses will always remain anonymous. This is a
-      different way of consulting Canadians – we hope you enjoy this, and learn
-      something too. Thank you for participating.
-    question_permission: >-
-      If you are under 16 years of age, please speak to your parent or guardian
-      to get their agreement before you begin the MyDem0cracy.ca experience.
+  english:
+    text:
+      sub_title: >-
+        MyDem0cracy.ca is an innovative way to join the national conversation on
+        electoral reform. By answering a few questions, you can draw a picture of
+        your democratic values. You can share your results with friends. It only
+        takes a few minutes to answer and your feedback will help shape a
+        healthier democracy.
+      welcome_message: >-
+        As you answer the questions, remember that there are no wrong answers and
+        your individual responses will always remain anonymous. This is a
+        different way of consulting Canadians – we hope you enjoy this, and learn
+        something too. Thank you for participating.
+      question_permission: >-
+        If you are under 16 years of age, please speak to your parent or guardian
+        to get their agreement before you begin the MyDem0cracy.ca experience.
 
-methodology: |
-  ### Seed comments
+    methodology: |
+      ### Seed comments
 
-  We setup the initial consultation process with a set of seed comments to kick-start the conversation. These seed comments were derived from statements mentioned in the MPs reports from their respective town hall meetings on electoral reform which can be found [here](http://www.parl.gc.ca/Content/HOC/Committee/421/ERRE/WebDoc/WD8405589/Members_Reports-e.html).
+      We setup the initial consultation process with a set of seed comments to kick-start the conversation. These seed comments were derived from statements mentioned in the MPs reports from their respective town hall meetings on electoral reform which can be found [here](http://www.parl.gc.ca/Content/HOC/Committee/421/ERRE/WebDoc/WD8405589/Members_Reports-e.html).
 
-  ### How commenting works
+      ### How commenting works
 
-  We invite you to share your own perspectives. Once you have expressed your agreement/disagreement or passed on all statements, feel free to submit a statement of your own if you feel that it is an essential piece to the national conversation about electoral reform.
+      We invite you to share your own perspectives. Once you have expressed your agreement/disagreement or passed on all statements, feel free to submit a statement of your own if you feel that it is an essential piece to the national conversation about electoral reform.
 
-  ### Why moderate the conversation?
+      ### Why moderate the conversation?
 
-  We are using a strict moderation process where all comments will first be approved before being visible to other visitors of mydem0cracy.ca. We are using this moderation process to reduce repetitive statements and to assure all statements are relevant to the conversation. We will release all submitted statements as part of our open data policy in order to be as transparent as possible about how statements were moderated.
+      We are using a strict moderation process where all comments will first be approved before being visible to other visitors of mydem0cracy.ca. We are using this moderation process to reduce repetitive statements and to assure all statements are relevant to the conversation. We will release all submitted statements as part of our open data policy in order to be as transparent as possible about how statements were moderated.
+
+    about: |
+      A healthy democracy requires that Governments listen to citizens in order to make better decisions. This initiative aims to hear from as many Canadians as possible in a national conversation on electoral reform.
+
+      Our approach will collect our voices in a real-time, coherent and open ended way while allowing you to agree/disagree or pass on what others have already said. We hope to provide a greater ability to listen to the diversity of opinions across the country while avoiding the echo chambers of typical social media engagement.
+
+      The goal of this parallel public consultation process is to have a large-scale conversation where participants can listen, share and learn from others’ viewpoints. We hope the debate evolves in such a way such that consensus statements allow this conversation to move forward in a productive and actionable way.
+
+      Basically, we'd like to build consensus through conversation rather than continue to yell at each other from across the table.
+
+
+  french:
+    methodology: |
