@@ -4,4 +4,5 @@ title: Methodology
 permalink: /methodology/
 ---
 
-{{site.methodology | markdownify}}
+{{ site.locales[site.locale].methodology | markdownify }}
+

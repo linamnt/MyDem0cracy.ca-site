@@ -1,5 +1,6 @@
 ---
 layout: default
 ---
-<div class='polis' data-conversation_id='{{ site.polis.conversation_id }}'></div>
+{% assign conversation_id = site.locales[site.locale].polis_conversation_id %}
+<div class='polis' data-conversation_id='{{ conversation_id }}'></div>
 <script async='true' src='https://pol.is/embed.js'></script>
