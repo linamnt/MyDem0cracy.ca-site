@@ -28,7 +28,9 @@ disqus_shortname:
 excerpt_separator: <!--description-->
 
 # Set this to override the official embed code with a custom one
-polis_embed_url: https://raw.githubusercontent.com/patcon/polisClientParticipation/customize-padding/api/embed.js
+# We use rawgit.com: https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github
+# This prevents errors about mime type where browser fails to execute script
+polis_embed_url: https://cdn.rawgit.com/patcon/polisClientParticipation/customize-padding/api/embed.js
 
 collections:
   faqs:
