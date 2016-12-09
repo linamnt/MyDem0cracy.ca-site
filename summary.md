@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Summary
 ---
 The Government of Canada has been thinking about electoral reform, and talking to citizens about it. We hope this citizen-run website can be a place to improve the ongoing conversation among citizens, complementing government efforts.
 
