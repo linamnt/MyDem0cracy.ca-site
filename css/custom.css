@@ -409,3 +409,7 @@ ol, ul {
   font-family: "Charter";
   src: url("/assets/Charter.woff")
 }
+
+blockquote {
+  font-size: 14px;
+}
