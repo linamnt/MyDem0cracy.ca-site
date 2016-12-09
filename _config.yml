@@ -27,6 +27,9 @@ disqus_shortname:
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
 
+# Set this to override the official embed code with a custom one
+polis_embed_url: https://raw.githubusercontent.com/patcon/polisClientParticipation/customize-padding/api/embed.js
+
 collections:
   faqs:
     # Prevents Jekyll from creating page for each item.

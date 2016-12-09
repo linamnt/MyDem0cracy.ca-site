@@ -2,5 +2,18 @@
 layout: default
 ---
 {% assign conversation_id = site.locales[site.locale].polis_conversation_id %}
-<div class='polis' data-conversation_id='{{ conversation_id }}'></div>
-<script async='true' src='https://pol.is/embed.js'></script>
+{% if site.polis_embed_url %}
+  {% assign embed_url = site.polis_embed_url %}
+{% else %}
+  {% assign embed_url = 'https://pol.is/embed.js' %}
+{% endif %}
+
+<div class='polis'
+  data-conversation_id='{{ conversation_id }}'
+  data-padding='0'
+  data-border='0'
+  data-border_radius='0'
+  data-parent_url='{{ site.locales[site.locale].site.title }}'
+  >
+</div>
+<script async='true' src='{{ embed_url }}'></script>
