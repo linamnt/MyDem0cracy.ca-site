@@ -27,6 +27,11 @@ disqus_shortname:
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
 
+collections:
+  faqs:
+    # Prevents Jekyll from creating page for each item.
+    # We just want the listing page.
+    output: false
 
 # Used to render to proper text/config in language-specific branches
 locale: en

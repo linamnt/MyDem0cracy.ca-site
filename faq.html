@@ -1,0 +1,14 @@
+---
+layout: page
+---
+{% for faq in site.faqs %}
+  <div>
+    <b>Question:</b><br />
+    {{ faq.question }}
+  </div>
+
+  <div>
+    <b>Answer:</b><br />
+    {{ faq.content }}
+  </div>
+{% endfor %}
