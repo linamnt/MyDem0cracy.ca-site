@@ -36,6 +36,13 @@ collections:
     # We just want the listing page.
     output: false
 
+
+defaults:
+  - scope:
+      type: faqs
+    values:
+      date_added: 2016-12-08
+
 # Used to render to proper text/config in language-specific branches
 locale: en
 
