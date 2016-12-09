@@ -58,7 +58,7 @@ locales:
 
       ### Why moderate the conversation?
 
-      We are using a strict moderation process where all comments will first be approved before being visible to other visitors of mydem0cracy.ca. We are using this moderation process to reduce repetitive statements and to assure all statements are relevant to the conversation. We will release all submitted statements as part of our open data policy in order to be as transparent as possible about how statements were moderated. (We are [working on making this more real-time](https://github.com/CivicTechTO/MyDem0cracy.ca-site/issues/12).)
+      We are using a moderation process where all comments will first be approved before being visible to other visitors of mydem0cracy.ca. We are using this moderation process to reduce repetitive statements and to assure all statements are relevant to the conversation. We will release all submitted statements as part of our open data policy in order to be as transparent as possible about how statements were moderated. (We are [working on making this more real-time](https://github.com/CivicTechTO/MyDem0cracy.ca-site/issues/12).)
 
     about: |
       A healthy democracy requires that Governments listen to citizens in order to make better decisions. This initiative aims to hear from as many Canadians as possible in a national conversation on electoral reform.
