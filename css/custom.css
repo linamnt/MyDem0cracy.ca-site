@@ -72,6 +72,8 @@ header, main {
   width: 16.66666%;
   float: left;
   position: relative;
+  /* TODO: Remove when we have French */
+  display: none;
 }
 
 .LanguageSwitcher-holder {
