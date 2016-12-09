@@ -1,10 +1,7 @@
 ---
-layout: default
+layout: page
 title: Privacy Policy
 ---
-
-# Privacy Policy
-
 This privacy policy (this "Policy") describes the collection of personal information
 by MyDem0cracy.ca ("MyDem0cracy", "we", "us") from users of our websites at
 [mydem0cracy.ca](mydem0cracy.ca) and [madem0cratie.ca](madem0cratie.ca) (the

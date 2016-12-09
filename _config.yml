@@ -6,7 +6,6 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: MyDem0cracy.ca
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   How do you think Canada’s democracy should work? D’après vous, comment la
@@ -23,33 +22,23 @@ kramdown:
 
 # Third-party services
 # just leave someone empty to disable it
-google_analytics: UA-77242163-1
 disqus_shortname:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
 
-polis:
-  conversation_id: 69fnuffbkm
 
-mydem0cracy:
-  english:
-    text:
-      sub_title: >-
-        MyDem0cracy.ca is an innovative way to join the national conversation on
-        electoral reform. By answering a few questions, you can draw a picture of
-        your democratic values. You can share your results with friends. It only
-        takes a few minutes to answer and your feedback will help shape a
-        healthier democracy.
-      welcome_message: >-
-        As you answer the questions, remember that there are no wrong answers and
-        your individual responses will always remain anonymous. This is a
-        different way of consulting Canadians – we hope you enjoy this, and learn
-        something too. Thank you for participating.
-      question_permission: >-
-        If you are under 16 years of age, please speak to your parent or guardian
-        to get their agreement before you begin the MyDem0cracy.ca experience.
+# Used to render to proper text/config in language-specific branches
+locale: en
 
+locales:
+  en:
+    site:
+      title: MyDem0cracy.ca
+    google_analytics: UA-77242163-1
+    polis_conversation_id: 69fnuffbkm
+    change_locale_text: Français
+    change_locale_url: https://mydem0cratie.ca
     methodology: |
       ### Seed comments
 
@@ -73,5 +62,14 @@ mydem0cracy:
       Basically, we'd like to build consensus through conversation rather than continue to yell at each other from across the table.
 
 
-  french:
+  fr:
+    site:
+      title: MaDem0cratie.ca
+    google_analytics: UA-77242163-2
+    polis_conversation_id: 4h8wyzbbca
+    change_locale_text: English
+    change_locale_url: https://mydem0cracy.ca
     methodology: |
+      foobar
+    about: |
+      foobar

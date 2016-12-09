@@ -3,4 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-{{site.about | markdownify}}
+{{ site.locales[site.locale].about | markdownify }}
