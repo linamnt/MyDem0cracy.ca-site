@@ -51,7 +51,8 @@ locale: en
 locales:
   en:
     site:
-      title: MyDem0cracy.ca
+      title: MyDemØcracy.ca
+      host: MyDem0cracy.ca
     google_analytics: UA-77242163-1
     polis_conversation_id: 5mnfxu85hx
     change_locale_text: Français
@@ -81,7 +82,8 @@ locales:
 
   fr:
     site:
-      title: MaDem0cratie.ca
+      title: MaDemØcratie.ca
+      host: MaDem0cratie.ca
     google_analytics: UA-77242163-2
     polis_conversation_id: 4h8wyzbbca
     change_locale_text: English
