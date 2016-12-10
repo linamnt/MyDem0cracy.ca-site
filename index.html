@@ -8,6 +8,10 @@ layout: default
   {% assign embed_url = 'https://pol.is/embed.js' %}
 {% endif %}
 
+<div class="main-container">
+  {{ site.locales[site.locale].intro | markdownify }}
+</div>
+
 <div class='polis'
   data-conversation_id='{{ conversation_id }}'
   data-padding='0'
