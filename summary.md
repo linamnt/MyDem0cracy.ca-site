@@ -11,16 +11,10 @@ The Government of Canada has been thinking about electoral reform, and talking t
 * For complicated perspectives, please split them into simpler comments. These will be easier for others to vote on.
 * Do not use questions.
 
-
-
 (Note: This system is not for counting the number of people holding each opinion, but to understand both the diverse “opinion groups” and also the “majority opinions” shared by all. It's about understanding different types of consensus. People with the same opinions are represented as a single group. We welcome everyone to share their views.)
 
 ---------
 
-**Who created this?** We are a group of citizens who want to help our peers participate in building an intelligent consensus around important issues like electoral reform. We hope this tool can help pave the way for a more transparent, constructive, and citizen-led consultation process that helps our fellow citizens better shape the public dialogue.
-
-### Important Dates
-
-* Wednesday, Dec. 27 - Commenting closes.
-* Saturday, Dec. 31 - Voting closes.
-* The read-only website and conversation will be available indefinitely.
+* [Who created this?](/faq/#who-created)
+* [Why was this created?](/faq/#why)
+* [How long does this run?](/faq/#timeline)
