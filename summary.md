@@ -15,6 +15,6 @@ The Government of Canada has been thinking about electoral reform, and talking t
 
 ---------
 
-* [Who created this?](/faq/#who-created)
-* [Why was this created?](/faq/#why)
-* [How long does this run?](/faq/#timeline)
+* [Who created this?](https://mydem0cracy.ca/faq/#who-created)
+* [Why was this created?](https://mydem0cracy.ca/faq/#why)
+* [How long does this run?](https://mydem0cracy.ca/faq/#timeline)
