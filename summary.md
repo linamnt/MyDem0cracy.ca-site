@@ -10,6 +10,7 @@ The Government of Canada has been thinking about electoral reform, and talking t
 * New comments should be standalone and should not respond to other comments.
 * For complicated perspectives, please split them into simpler comments. These will be easier for others to vote on.
 * Do not use questions.
+* If you don't know, or think it's a poorly written comment, just PASS.
 
 (Note: This system is not for counting the number of people holding each opinion, but to understand both the diverse “opinion groups” and also the “majority opinions” shared by all. It's about understanding consensus. People with the same opinions are represented as a single group. We welcome everyone to share their views.)
 
