@@ -67,6 +67,22 @@ Websites.
 
 * [Google privacy policy](https://www.google.com/intl/en/policies/privacy/)
 
+### LiveChat
+
+We use LiveChat for supporting users with chat built right into the website.
+
+We have LiveChat connected to our internal chat tool, the "Civic Tech Toronto"
+Slack team. This allows people in our specific project's chat room to be
+notified when a participant starts a new support conversation. Our team chat
+tool is semi-public, as any member of the public can sign up. Having said that,
+only people in our chat room will be notified when a participant starts a new
+support chat. In practice, this is about 20 people. These team members only see
+the name and city of the person initiating the support chat, NOT the content of
+the chat. The content of the conversation is only visible to our support team
+(ie. team leads).
+
+* [LiveChat privacy policy](https://www.livechatinc.com/privacy-policy/)
+
 ### Contacting Us
 
 Please see our [contact page](/contact).
