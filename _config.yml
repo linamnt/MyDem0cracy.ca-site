@@ -23,7 +23,8 @@ kramdown:
 # Third-party services
 # just leave someone empty to disable it
 disqus_shortname:
-livechat_license: 8491674
+# Disabled because trial is over.
+livechat_license: null
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
