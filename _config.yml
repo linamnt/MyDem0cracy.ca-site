@@ -47,7 +47,7 @@ defaults:
       date_added: 2016-12-08
 
 # Used to render to proper text/config in language-specific branches
-locale: fr
+locale: en
 
 locales:
   en:
