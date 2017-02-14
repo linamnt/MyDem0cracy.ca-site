@@ -5,4 +5,3 @@ permalink: /methodology/
 ---
 
 {{ site.locales[site.locale].methodology | markdownify }}
-

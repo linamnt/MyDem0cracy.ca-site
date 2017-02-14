@@ -1,0 +1,25 @@
+---
+layout: page
+---
+{% if page.embed_url %}
+  {% assign embed_url = page.embed_url %}
+{% else %}
+  {% assign embed_url = 'https://pol.is/embed.js' %}
+{% endif %}
+
+    <div class="article-content">
+      {{ content }}
+    </div>
+
+    <div class='polis'
+      data-conversation_id='{{ page.conversation_id }}'
+      data-padding='0'
+      data-border='0'
+      data-border_radius='0'
+      data-parent_url='{{ site.locales[site.locale].site.host }}'
+      >
+    </div>
+    <script async='true' src='{{ embed_url }}'></script>
+
+  </div>
+</article>

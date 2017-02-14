@@ -8,12 +8,11 @@
 # Site settings
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  How do you think Canada’s democracy should work? D’après vous, comment la
-  démocratie du Canada devrait-elle fonctionner?
-#baseurl: "/MyDem0cracy.ca-site" # the subpath of your site, e.g. /blog
-url: "mydem0cracy.ca" # the base hostname & protocol for your site
+  Be a part of the conversation about relevant issues in Toronto.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "linamnt.github.io" # the base hostname & protocol for your site
 twitter_username:
-github_username:  CivicTechTO/MyDem0cracy.ca-site
+github_username:  CivicTechTO/vToronto
 
 # Build settings
 markdown: kramdown
@@ -53,12 +52,12 @@ locale: en
 locales:
   en:
     site:
-      title: MyDemØcracy.ca
-      host: MyDem0cracy.ca
-    google_analytics: UA-77242163-1
-    polis_conversation_id: 5mnfxu85hx
-    change_locale_text: Français
-    change_locale_url: https://mydem0cratie.ca
+      title: vToronto.ca
+      host: vToronto.ca
+    #google_analytics: UA-77242163-1
+    #polis_conversation_id: 5mnfxu85hx
+    #change_locale_text: Français
+    #change_locale_url: https://mydem0cratie.ca
     methodology: |
       ### Seed comments
 
@@ -81,39 +80,18 @@ locales:
 
       Basically, we'd like to build consensus through conversation rather than continue to yell at each other from across the table.
     intro: |
-      **The Government of Canada has been thinking about electoral reform, and talking to citizens about it.**
 
-      We hope this citizen-run website can be a place to improve the ongoing conversation among citizens, complementing government efforts.
+      Welcome to the vToronto website where public consultations on issues relevant to citizens of Toronto will be held.
 
-      * [References](https://hackpad.com/MyDem0cracy.ca-3hX26tZ8F0f) on electoral reform. (All are welcome to contribute!)
-      * How to **Vote**
-        * If you don't know, or think it's a badly written comment, just _PASS_.
-      * How to **Comment**
-        * Best to view all existing comments before adding new ones.
-        * Please click “Share your perspective…” to add your comments.
-        * Your "perspective" can be either feelings or facts -- start with "I think..." or "I am..."
-        * Comments should be standalone. They shouldn't respond to other comments.
-        * For complicated perspectives, please split them into simpler comments. These will be easier for others to vote on.
-        * Do not use questions.
-      * But what are the **goals**?
-        * In a general sense, the goal is understanding our fellow citizens.
-        But more concretely, we as citizens can use this to tease apart the
-        debate and **discover new and unexpected _Majority Opinions_**.
-        Comments shared by a majority carry the most weight, and so would be
-        most impactful to pass along to representatives.
-
-      _Note: This system is not for counting the number of people holding each opinion, but to understand both the diverse “opinion groups” and also the “majority opinions” shared by all. It's about understanding consensus. People with the same opinions are represented as a single group. We welcome everyone to share their views._
-
-      For further information on the who, what, where, when and why, please see [our FAQ](/faq).
 
   fr:
     site:
-      title: MaDemØcratie.ca
-      host: MaDem0cratie.ca
-    google_analytics: UA-77242163-2
-    polis_conversation_id: 4h8wyzbbca
+      title: vToronto.ca
+      host: vToronto.ca
+#    google_analytics: UA-77242163-2
+#    polis_conversation_id: 4h8wyzbbca
     change_locale_text: English
-    change_locale_url: https://mydem0cracy.ca
+#    change_locale_url: https://mydem0cracy.ca
     methodology: |
       foobar
     about: |
