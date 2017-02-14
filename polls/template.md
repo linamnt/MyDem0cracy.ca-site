@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: poll
 title:
 visible: false
+poll: true
 conversation_id:
 embed_url:
 tags:

@@ -405,6 +405,14 @@ ol, ul {
   padding: 22px 0;
 }
 
+.link-listing{
+  display: inline-block;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
 @font-face {
   font-family: "Charter";
   src: url("/assets/Charter.woff")
