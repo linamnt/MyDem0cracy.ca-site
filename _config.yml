@@ -9,7 +9,7 @@
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Be a part of the conversation about relevant issues in Toronto.
-baseurl: "/MyDem0cracy.ca-site" # the subpath of your site, e.g. /blog
+baseurl: "/vToronto" # the subpath of your site, e.g. /blog
 url: "linamnt.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  CivicTechTO/vToronto
